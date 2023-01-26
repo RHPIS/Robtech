@@ -49,9 +49,10 @@
     "robotsSwitcher": false,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "favicon": false,
-    "mbrsiteDomain": "o37t4g2mvx",
+    "mbrsiteDomain": "snfsyxv1il",
     "cookiesAlert": false,
     "gdpr": false,
+    "google-analytics": "<script>\n\"use strict\";\n\n!function() {\n  var t = window.driftt = window.drift = window.driftt || [];\n  if (!t.init) {\n    if (t.invoked) return void (window.console && console.error && console.error(\"Drift snippet included twice.\"));\n    t.invoked = !0, t.methods = [ \"identify\", \"config\", \"track\", \"reset\", \"debug\", \"show\", \"ping\", \"page\", \"hide\", \"off\", \"on\" ], \n    t.factory = function(e) {\n      return function() {\n        var n = Array.prototype.slice.call(arguments);\n        return n.unshift(e), t.push(n), t;\n      };\n    }, t.methods.forEach(function(e) {\n      t[e] = t.factory(e);\n    }), t.load = function(t) {\n      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement(\"script\");\n      o.type = \"text/javascript\", o.async = !0, o.crossorigin = \"anonymous\", o.src = \"https://js.driftt.com/include/\" + n + \"/\" + t + \".js\";\n      var i = document.getElementsByTagName(\"script\")[0];\n      i.parentNode.insertBefore(o, i);\n    };\n  }\n}();\ndrift.SNIPPET_VERSION = '0.3.1';\ndrift.load('asncw47x9pgz');\n</script>",
     "uniqCompNum": 0,
     "versionPublish": "5.7.4"
   },
